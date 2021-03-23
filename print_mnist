@@ -1,5 +1,5 @@
 from keras.datasets import mnist
-import matplotlib.pyplot as plt
+import matplotlib.pyplot as plt     #運用matplotlib.pyplot模組來把一張數字顯示出來
 (train_feature, train_label), (test_feature, test_label) = mnist.load_data()
 
 plt.gcf().set_size_inches(2, 2)
