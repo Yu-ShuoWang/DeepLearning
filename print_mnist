@@ -1,0 +1,7 @@
+from keras.datasets import mnist
+import matplotlib.pyplot as plt
+(train_feature, train_label), (test_feature, test_label) = mnist.load_data()
+
+plt.gcf().set_size_inches(2, 2)
+plt.imshow(train_feature[0], cmap='binary')
+plt.show()
